@@ -1,5 +1,12 @@
 import React from "react";
+import HeroSection from "./components/HeroSection";
 
-export default function Home() {
-  return <div>Home</div>;
-}
+const Home = () => {
+  const data = {
+    name: "Online store",
+  };
+
+  return <HeroSection myData={data} />;
+};
+
+export default Home;
